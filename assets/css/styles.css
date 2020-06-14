@@ -19,6 +19,11 @@
       background: var(--primary-color); 
     }
   
+  body section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
   /* Header Formats */
   header {
       padding: 20px 35px;
@@ -96,19 +101,18 @@
 
 /* About Me */
 
-.about-flex {
+#about {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-between;
 }
 
 #about div {
-  width:70%;
+  width:75%;
 }
 
 #about div:nth-child(1) {
-  width:30%;
+  width:25%;
 }
 
 /* Portfolio */
@@ -156,4 +160,12 @@
 
 #contact {
 
+}
+
+.right-border {
+  border-right: 3px solid var(--secondary-color);
+}
+
+.padding {
+  padding: 10px;
 }
