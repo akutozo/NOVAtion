@@ -101,17 +101,51 @@
 /* About Me */
 
 .about {
-    
+    display: inline-block;
+}
+
+.about h2 {
 }
 
 article img {
     max-height: 200px;
 }
 
+.about p {
+
+}
 
 
+/* Portfolio */
 
+.portfolio{
+  background: var(--primary-color); 
+}
 
+.portfolio-grid-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.portfolio-grid-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 4fr repeat(2, 2fr);
+  grid-template-rows: repeat(5, 1fr);
+  border: 2px solid var(--secondary-color);
+  color:  var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+.portfolio-grid-item {
+  padding: 15px 0;
+  border: 2px solid var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
 
 /* Temporary */
