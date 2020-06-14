@@ -22,7 +22,6 @@
   /* Header Formats */
   header {
       padding: 20px 35px;
-      
       font-weight: bold;
       display: flex;
       flex-wrap: wrap;
@@ -97,36 +96,32 @@
 
 /* About Me */
 
-#about {
+.about-flex {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
-    margin: 15px;
 }
 
-#about h2 {
+#about div {
+  width:70%;
 }
 
-#about img {
-    max-height: 200px;
+#about div:nth-child(1) {
+  width:30%;
 }
-
-#about p {
-
-}
-
 
 /* Portfolio */
 
 #portfolio{
-
+  background: var(--primary-color); 
 }
 
 .portfolio-grid-wrapper {
   display: flex;
   width: 100%;
   justify-content: center;
+ 
 }
 
 
