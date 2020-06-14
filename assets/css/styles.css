@@ -148,6 +148,15 @@
   grid-gap: 10px;
 }
 
+.portfolio-grid-container p {
+  width: 100%;
+}
+.portfolio-grid-container a {
+  display: block;
+  width: 100%;
+  padding: 15% 0;
+}
+
 .portfolio-grid-item {
   padding: 15px 0;
   border: 2px solid var(--secondary-color);
