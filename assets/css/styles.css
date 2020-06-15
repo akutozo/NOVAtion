@@ -145,6 +145,7 @@
   color:  var(--quinary-color);
   font-size: 1.2rem;
   grid-gap: 10px;
+  
 }
 
 .portfolio-grid-item p {
@@ -179,12 +180,23 @@
   grid-row: 1 / span 2;
 
 }
-
 /* Contact */
 
 #contact {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+#contact div {
+width:80%;
+}
+
+#contact div:nth-child(1) {
+width:20%;
+}
+
+/* Misc */
 
 .right-border {
   border-right: 3px solid var(--secondary-color);
