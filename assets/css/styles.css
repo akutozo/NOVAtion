@@ -112,6 +112,7 @@
 
 #about div:nth-child(1) {
   width:20%;
+  text-align: center;
 }
 
 /* Portfolio */
@@ -128,6 +129,7 @@
 
 #portfolio > div:nth-child(1) {
   width:20%;
+  text-align: center;
 }
 
 .portfolio-grid-wrapper {
@@ -180,20 +182,28 @@
   grid-row: 1 / span 2;
 
 }
+
 /* Contact */
 
 #contact {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-decoration: none;
+}
+
+
+#contact div:nth-child(1) {
+  width:20%;
+  text-align: center;
 }
 
 #contact div {
 width:80%;
 }
 
-#contact div:nth-child(1) {
-width:20%;
+.contact-info ul li {
+  list-style: none;
 }
 
 /* Misc */
@@ -203,5 +213,5 @@ width:20%;
 }
 
 .padding {
-  padding: 10px;
+  padding: 20px;
 }
