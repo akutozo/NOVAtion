@@ -142,7 +142,6 @@
  
 }
 
-
 .portfolio-grid-container {
   width: 80%;
   display: grid;
@@ -177,6 +176,21 @@
   width: 100%;
   height: auto;
   position: relative;
+}
+
+.portfolio-grid-item img::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.portfolio-grid-item img:hover .portfolio-grid-item img:after{
+  opacity: .7;
 }
 
 .portfolio-grid-item.impact {
