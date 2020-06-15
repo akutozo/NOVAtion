@@ -189,7 +189,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  text-decoration: none;
 }
 
 
@@ -204,6 +203,7 @@ width:80%;
 
 .contact-info ul li {
   list-style: none;
+  display: inline-block;
 }
 
 /* Misc */
