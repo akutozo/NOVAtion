@@ -70,7 +70,7 @@
     header nav ul li a {
       padding: 10px 15px;
       font-weight: lighter;
-      font-size: 1.55vw;
+      font-size: 1.25vw;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     } 
   
@@ -95,6 +95,7 @@
 .hero-test {
     text-align: center;
     padding: 50px;
+    font-size: 1.25vw;
     color: var(--quinary-color);
 }
 
@@ -259,24 +260,31 @@ header nav ul li a {
     justify-content: center;
   }
 
+
+.hero-test {
+  font-size: 2.5vw;
+}
+
   .portfolio-grid-container {
     width: 80%;
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: none;
     grid-template-rows: repeat(5, 4fr);
     color:  var(--quinary-color);
     font-size: 1.2rem;
     grid-gap: 10px;
-    
+    font-size: 3vw;
   }
  
   .portfolio-grid-item.impact {
     grid-column: 1;
     grid-row: 1;
+  }
 
   .contact-info ul li {
     padding: 3px;
     font-size: 2.5vw;
   }
+  
 
   }
