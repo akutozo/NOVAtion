@@ -19,7 +19,7 @@
       background: var(--primary-color); 
     }
   
-  body section {
+  body section:not('hero') {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -148,32 +148,37 @@
   grid-gap: 10px;
 }
 
-.portfolio-grid-container p {
+.portfolio-grid-item p {
   width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
 }
 .portfolio-grid-container a {
-  display: block;
-  width: 100%;
-  padding: 15% 0;
   text-decoration: none;
   color: #fff;
+  display: inline-block;
 }
 
 .portfolio-grid-item {
-  padding: 15px 0;
   border: 2px solid var(--secondary-color);
-  display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  position: relative;
 }
 
+.portfolio-grid-item img{
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
 
 .portfolio-grid-item.impact {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
-  background-image: url("../images/pebbles.jpg");
-  background-size: cover;
+
 }
 
 /* Contact */
