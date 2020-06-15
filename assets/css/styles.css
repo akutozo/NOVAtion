@@ -92,7 +92,7 @@
     width: 100%;
   }
 
-.hero-test {
+.hero-title {
     text-align: center;
     padding: 50px;
     font-size: 1.25vw;
@@ -166,9 +166,7 @@
 }
 
 .portfolio-grid-item {
-  border: 2px solid var(--secondary-color);
-  align-items: center;
-  justify-content: center;
+  border: 1px solid var(--secondary-color);
   position: relative;
 }
 
