@@ -6,8 +6,8 @@
   }
   
   :root {
-    --primary-color: #5D5C61;
-    --secondary-color: #379683;
+    --primary-color: rgb(52, 51, 56);
+    --secondary-color: #33a78f;
     --tertiary-color: #7395AE;
     --quaternary-color: #557A95;
     --quinary-color: #fff;
@@ -38,7 +38,7 @@
   
     header h1 {
       font-weight: bold;
-      font-size: 36px;
+      font-size: 40px;
       color: var(--quinary-color);
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       margin: 0;
@@ -55,6 +55,7 @@
   
     header nav {
       margin: 7px 0;
+      
     }
   
     header nav ul {
@@ -226,3 +227,56 @@ width:80%;
 .padding {
   padding: 20px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+header nav ul li a {
+  font-size: 2.5vw;
+ 
+} 
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+
+  header nav ul li a {
+    font-size: 3vw;
+   
+  }
+
+  .mobile h2 {
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    justify-content: center;
+  }
+
+  .portfolio-grid-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(5, 4fr);
+    color:  var(--quinary-color);
+    font-size: 1.2rem;
+    grid-gap: 10px;
+    
+  }
+ 
+  .portfolio-grid-item.impact {
+    grid-column: 1;
+    grid-row: 1;
+
+  .contact-info ul li {
+    padding: 3px;
+    font-size: 2.5vw;
+  }
+
+  }
